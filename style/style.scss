@@ -1,0 +1,58 @@
+$mainColor : #333333;
+$headerColor : rgba(255, 255, 255, 0.2);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  nav {
+    height: 8vh;
+    width: 100vw;
+    background-color: $headerColor;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5rem;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 3rem;
+      gap: 5rem;
+    }
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  section {
+    height: 100%;
+    width: 100%;
+    background: $mainColor;
+    padding-top: 12rem;
+    padding-left: 5rem;
+    h1{
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+      line-height: 20rem;
+    }
+  }
+}
+
+
