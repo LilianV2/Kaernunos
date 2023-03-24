@@ -7,7 +7,7 @@ require_once "../View/utils.php";
         require "../View/nav.php";
     ?>
     <section>
-        <h1>Bievenue chez KAERNUNOS / Univers</h1>
+        <h1>Bievenue chez KAERNUNOS / Univers    </h1>
     </section>
     <footer>
 
